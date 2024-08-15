@@ -1,0 +1,21 @@
+html, body {
+    cursor: none; 
+  }
+  
+  body {
+    position: relative;
+  }
+  
+  .circle {
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    background-color: black;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    z-index: 99999999; /* so that it stays on top of all other elements */
+    transition: transform 0.2s ease;
+  }
+  
