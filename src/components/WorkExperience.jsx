@@ -3,7 +3,7 @@ import { FaCode, FaUsers, FaMobileAlt, FaLayerGroup } from 'react-icons/fa';
 
 function WorkExperience() {
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-black text-white bg-gradient-to-r from-gray-900 via-black to-gray-900 px-8">
+    <div className="min-h-screen flex flex-col items-center justify-center bg-black text-white bg-gradient-to-r from-gray-900 via-black to-gray-900 px-8 mt-12 p-10">
       <h2 className="text-4xl font-bold mb-8">Work Experience</h2>
       <div className="space-y-6 max-w-4xl w-full sm:w-3/4 lg:w-1/2">
         <div className="lg:text-left">

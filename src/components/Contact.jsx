@@ -3,8 +3,8 @@ import { FaEnvelope, FaPhone, FaLinkedin, FaGithub } from 'react-icons/fa';
 
 function Contact() {
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-r from-gray-900 via-black to-gray-900 text-white">
-      <h2 className="text-3xl font-semibold mb-12">Contact Me</h2>
+    <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-r from-gray-900 via-black to-gray-900 text-white px-4">
+      <h2 className="text-3xl font-semibold mb-12 mt-12">Contact Me</h2>
       <div className="flex flex-col space-y-6 max-w-lg w-full">
         <div className="flex items-center bg-gray-700 p-5 rounded-lg shadow-lg">
           <FaPhone className="text-teal-500 text-3xl mr-4" />

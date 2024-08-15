@@ -3,7 +3,7 @@ import { FaEnvelope, FaLinkedin, FaGithub } from 'react-icons/fa';
 
 function Home() {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gradient-to-r from-gray-900 via-black to-gray-900 text-white">
+    <div className="min-h-screen flex items-center justify-center bg-gradient-to-r from-gray-900 via-black to-gray-900 text-white px-8 mt-6">
       <div className="flex flex-col md:flex-row items-center">
         {/* Profile Picture */}
         <div className="mb-6 md:mb-0 md:mr-10 hover:scale-105 transition-transform duration-300">
