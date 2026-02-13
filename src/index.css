@@ -48,6 +48,8 @@ html {
   scroll-behavior: smooth;
   scrollbar-width: thin;
   scrollbar-color: var(--accent-primary) var(--bg-primary);
+  overflow-x: hidden;
+  width: 100%;
 }
 
 body {
@@ -80,6 +82,7 @@ body {
   height: 100%;
   z-index: 0;
   pointer-events: none;
+  overflow: hidden;
 }
 
 .canvas-container canvas {
@@ -619,7 +622,7 @@ body {
 /* ===== SKILLS SECTION ===== */
 .skills-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 24px;
 }
 
@@ -1367,6 +1370,8 @@ body {
 
   .hero-content {
     order: 1;
+    animation: none;
+    /* Disable animation to prevent overflow */
   }
 
   .hero-visual {
@@ -1375,10 +1380,15 @@ body {
     justify-content: center;
     padding-left: 0;
     transform: none;
+    animation: none;
+    /* Disable animation to prevent overflow */
   }
 
   .hero-visual canvas {
-    max-width: 360px !important;
+    max-width: 100% !important;
+    /* Ensure it doesn't overflow */
+    width: auto !important;
+    height: auto !important;
   }
 
   .hero-description {
